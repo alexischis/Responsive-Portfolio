@@ -1,0 +1,156 @@
+html {
+    width: 1370px;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+body {
+    background: white;
+    width: 960px;
+    margin: auto !important;
+    height: 700px;
+}
+
+.container {
+    width: 960px;
+    margin: auto !important;
+    background-color: white;
+    height: 500px;
+}
+
+nav {
+    width: 960px;
+    margin: auto;
+    background-color: white;
+    color: black;
+    height: 100px !important;
+    display: flex !important;
+    border-bottom: 3px solid #833ab4;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 75px 5px 10px 0;
+    align-content: flex-end !important;
+    margin-bottom: 0px;
+    display: flex;
+    padding-left: 500px;
+    font-family: 'Barlow', sans-serif;
+}
+
+li {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+li a:default {
+    color: black;
+}
+
+li a:hover {
+    background-color: white;
+  }
+
+
+#logo {
+    width: 200px;
+    height: 100px;
+    background: #833ab4;
+    text-align: center;
+    position: relative;
+    left: 170px;
+    line-height: 75%;
+}
+
+header {
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    padding-top: 65px;
+}
+
+#about-me {
+    background-color: white;
+    width: 65%;
+    margin: auto;
+    weight: bold;
+    font-size: 24px;
+    font-family: 'Anton', sans-serif;
+    padding: 10px;
+}
+
+hr {
+    width: 65%;
+    margin: auto;
+}
+
+main {
+    width: 65%;
+    margin: auto;
+    display: flex;
+    font-family: 'Anton', sans-serif;
+}
+
+img {
+    width: 200px;
+    height: 270px;
+    padding-right: 10px;
+    flex-shrink: 1;
+}
+
+#p1 {
+    background-color: white;
+    width: 100%;
+    flex-grow: 2;
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+}
+
+form {
+    margin: auto;
+    width: 65%;
+}
+
+button {
+    background-color: rgba(252,176,69,1);
+    color: black;
+    box-shadow: 3px orange;
+}
+
+.images {
+    width: 50%;
+    margin: auto;
+}
+
+.centered {
+    position: absolute;
+    top: 80%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    height: 40px;
+    width: 18rem;  
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+}
+
+.centered1 {
+    position: absolute;
+    top: 80%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    height: 40px;
+    width: 18rem;  
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+
+}
+
+.grid {
+    padding: 40px 0 40px 0;
+    margin: auto;
+    width: 65%;
+}
