@@ -2,53 +2,67 @@
 <html>
 
 <head>
-    <title>Alexis</title>
+    <title>About Me</title>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale-1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Anton|Barlow&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <nav>
-        <section id="logo">
-            <header>Alexis Chisolm</header>
-        </section>
-        <ul>
-            <li><a href="index.html">
-                    About |
-                </a></li>
-            <li><a href="portfolio.html">
-                    Portfolio |
-                </a></li>
-            <li><a href="contact.html">
-                    Contact |
-                </a></li>
-        </ul>
-    </nav>
-
-    <section class="container">
-        <section id="about-me">
-            About Me
-        </section>
-
-        <br>
-        <hr>
-        <br>
-
-        <main>
-            <img src="Images\image1.jpeg" alt="Alexis headshot">
-            <section id="p1">I am an HR Assistant and educator who enjoys data and operations.
-                I am currently enrolled in UConn's Coding Bootcamp to gain fullstack skills that will heighten my
-                ability to manuever around technology and systems.</p>
-                I'm from Bridgeport, Connecticut where I was reared by my mother, Sylvia, and step-father, Michael.
-                My mom gave birth to two sets of twins, roughly 18-months apart, so as you might imagine I grew up in a
-                house full of personality and a little chaos.
-                My siblings and I grew up really close and honestly, they're my inspiration to follow my dreams.
-                In 2010, I graduated as Valedictorian of my high school class and in 2014, I graduated with a bachelor's
-                in Business Administration from UConn.
-                Since graduating I have been on the search to find a career that suits me and my passions.
+    <aside>
+        <img id="menu" src="images/menu.svg">
+        <nav>
+            <section id="logo">
+                <header>Alexis Chisolm</header>
             </section>
-        </main>
+            <ul>
+                <li><a href="index.html">
+                        About
+                    </a></li>
+                <br>
+                <li><a href="portfolio.html">
+                        Portfolio
+                    </a></li>
+                <br>
+                <li><a href="contact.html">
+                        Contact
+                    </a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <section>
+    <div class="container">
+        <header>
+            About Me
+        <img src="Images\image1.jpeg" alt="Alexis headshot">
+        </header>
+        <p>I am an HR Assistant and educator who enjoys data and operations.
+            I am currently enrolled in UConn's Coding Bootcamp to gain fullstack skills that will heighten my
+            ability to manuever around technology and systems.
+            I'm from Bridgeport, Connecticut where I was reared by my mother, Sylvia, and step-father, Michael.
+            My mom gave birth to two sets of twins, roughly 18-months apart, so as you might imagine I grew up in a
+            house full of personality and a little chaos.
+            My siblings and I grew up really close and honestly, they're my inspiration to follow my dreams.
+            In 2010, I graduated as Valedictorian of my high school class and in 2014, I graduated with a bachelor's
+            in Business Administration from UConn.
+            Since graduating I have been on the search to find a career that suits me and my passions.
+        </p>
+    </div>
     </section>
+    <script>
+        (function () {
+            var menu = document.querySelector('ul'),
+                menulink = document.querySelector('img');
+
+            menulink.addEventListener('click', function (e) {
+                menu.classList.toggle('active');
+                e.preventDefault();
+            });
+        })();
+    </script>
 </body>
 
 </html>
