@@ -64,24 +64,20 @@
         height: calc(100%-2em);
         margin: 0;
     }
-
     body {
         background-color: mediumslateblue;
         font-family: 'Barlow', sans-serif;
     }
-
     #menu {
         width: 40px;
         cursor: pointer;
     }
-
     aside {
         color: white;
         display: grid !important;
         grid-template-columns: auto 40px;
         padding: 2em;
     }
-
     .active {
             position: absolute;
             display: block !important;
@@ -91,16 +87,12 @@
             top: 0;
             height: 100%;
         }
-    /* nav {
-        background: white;
-    } */
     ul {
         display: none !important;
         list-style-type: none;
         margin: 0;
         padding: 0;
     }
-    
     ul li a {
         text-decoration: none;
         text-transform: uppercase;
@@ -133,29 +125,26 @@
         width: 50%;
     }
 }
+
 @media only screen and (max-width: 980px) {
     html, body {
         height: calc(100%-2em);
         margin: 0;
     }
-
     body {
         background-color: mediumslateblue;
         font-family: 'Barlow', sans-serif;
     }
-
     #menu {
         width: 40px;
         cursor: pointer;
     }
-
     aside {
         color: white;
         display: grid !important;
         grid-template-columns: auto 40px;
         padding: 2em;
     }
-
     .active {
             position: absolute;
             display: block !important;
@@ -170,8 +159,7 @@
         list-style-type: none;
         margin: 0;
         padding: 0;
-    }
-        
+    } 
     ul li a {
         text-decoration: none;
         text-transform: uppercase;
@@ -191,12 +179,10 @@
         margin: auto;
         clear: both;
     }
-
     img {
     width: 67%; 
     display: flex;
     }
-
     header {
         font-family: 'Anton', sans-serif;
     }
@@ -211,37 +197,30 @@
         background-color: mediumslateblue;
         font-family: 'Barlow', sans-serif;
     }
-
     html, body {
         height: calc(100%-2em);
         margin: auto;
     }
-
     #menu {
         display: none;
     }
-
     aside {
             color: white;
             grid-template-columns: auto 40px;
             padding: 2em 12em;
         }
-
     .active {
             display: none;
         }
-
     nav {
         background: mediumslateblue;
     }
-
     ul {
         display: flex;
         list-style-type: none;
         margin: auto;
         padding: 0;
-    }
-        
+    }  
     ul li a {
         text-decoration: none;
         text-transform: uppercase;
